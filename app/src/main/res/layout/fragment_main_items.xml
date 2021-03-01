@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2020. Made by Vivek Surya and Raj Rathod. All Rights Reserved.
+  ~ Last Modified 15/11/20 12:39 PM
+  -->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainf_cardview"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    tools:context=".Fragments.MainFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/subject_image"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/subject_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="@string/frag_main_items_subject"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            app:textAllCaps="true" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

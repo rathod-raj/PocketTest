@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020. Made by Vivek Surya and Raj Rathod. All Rights Reserved.
+  ~ Last Modified 15/11/20 12:41 PM
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pockettest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activites.HomeActivity"></activity>
+        <activity android:name=".Activites.GivenTestActivity" />
+        <activity android:name=".Activites.AllTestListActivity" />
+        <activity android:name=".Activites.VideoListAcivity" />
+        <activity android:name=".Activites.AllTestsActivity" />
+        <activity android:name=".Activites.ResultsActivity" />
+        <activity
+            android:name=".Activites.MainTest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activites.StartTest" />
+        <activity
+            android:name=".Activites.YoutubeVideoPlayer"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorLandscape" />
+        <activity android:name=".Activites.EditProfile" />
+        <activity android:name=".Activites.MainActivity" />
+        <activity android:name=".Activites.LoginActivity" />
+        <activity android:name=".Activites.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="YOUR ADSENSE KEY"/>
+    </application>
+
+</manifest>

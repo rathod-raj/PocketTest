@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020. Made by Vivek Surya and Raj Rathod. All Rights Reserved.
+  ~ Last Modified 15/11/20 12:39 PM
+  -->
+
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/google</item>
+        <item>@font/montserrat</item>
+        <item>@font/open_sans_light</item>
+    </array>
+</resources>

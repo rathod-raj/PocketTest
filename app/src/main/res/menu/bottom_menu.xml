@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020. Made by Vivek Surya and Raj Rathod. All Rights Reserved.
+  ~ Last Modified 15/11/20 12:39 PM
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:enabled="true"
+        android:icon="@drawable/nav_home"
+        android:title="Home"/>
+    <item
+        android:enabled="true"
+        android:id="@+id/nav_lecture"
+        android:icon="@drawable/nav_lectures"
+        android:title="Lectures" />
+   <item
+       android:enabled="true"
+    android:id="@+id/nav_account"
+    android:icon="@drawable/nav_account"
+    android:title="My Account"/>
+
+
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020. Made by Vivek Surya and Raj Rathod. All Rights Reserved.
+  ~ Last Modified 15/11/20 12:39 PM
+  -->
+
+<resources>
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="login_button_width">160dp</dimen>
+    <dimen name="login_button_height">60dp</dimen>
+    <dimen name="login_button_margin">10dp</dimen>
+    <dimen name="login_button_size">20sp</dimen>
+</resources>

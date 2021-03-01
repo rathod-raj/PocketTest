@@ -1,0 +1,64 @@
+<!--
+  ~ Copyright (c) 2020. Made by Vivek Surya and Raj Rathod. All Rights Reserved.
+  ~ Last Modified 15/11/20 12:39 PM
+  -->
+
+<resources>
+    <string name="app_name">PocketTest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="account_edit_profile">Edit Profile</string>
+    <string name="account_starred_quiz">Starred Quizes</string>
+    <string name="account_quiz_taken">Given Quizes</string>
+    <string name="account_quiz_history">All Quizes</string>
+    <string name="account_logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile No</string>
+    <string name="loc">Location</string>
+    <string name="save">Save</string>
+    <string name="change_profile_picture">Change Profile Picture</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="cancel">Cancel</string>
+    <string name="lecutres">Lectures</string>
+    <string name="upcoming_tests">Upcoming Tests</string>
+    <string name="ongoing_tests">Ongoing Tests</string>
+    <string name="title_activity_main_test">MainTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_all_test_list_noquizes">No Quizes are here yet.</string>
+    <string name="activity_all_tests_allquizes">All Quizes</string>
+    <string name="activity_edit_profile_name">Name</string>
+    <string name="activity_edit_profile_mobile_no">Mobile number</string>
+    <string name="activity_edit_profile_location">Location</string>
+    <string name="activity_edit_profile_helper">Edit atleast one field and hit save.</string>
+    <string name="activity_given_test_title">Given Quizes</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">signup</string>
+    <string name="submit_button">Submit</string>
+    <string name="home_button">GO TO HOME</string>
+    <string name="activity_test_question">This is the first question</string>
+    <string name="frag_account_name">Vivek Surya</string>
+    <string name="frag_account_email">vik@gmail.com</string>
+    <string name="frag_account_mobile">+91-9999999999</string>
+    <string name="frag_login_title">WELCOME</string>
+    <string name="frag_login_email">Email</string>
+    <string name="frag_login_password">Password</string>
+    <string name="frag_login_forgot_pass">Forget password ?</string>
+    <string name="frag_login_helper">OR</string>
+    <string name="frag_main_items_subject">Subject</string>
+    <string name="frag_quiz_details_title">Quiz title</string>
+    <string name="frag_quiz_details_loading_text">Loading Data, Please wait...</string>
+    <string name="frag_signup_title">REGISTER</string>
+    <string name="frag_signup_name">Name</string>
+    <string name="frag_signup_email">Email</string>
+    <string name="frag_signup_password">Password</string>
+    <string name="frag_signup_confirm_pass">Confirm password</string>
+    <string name="frag_signup_mobile">Mobile number</string>
+    <string name="frag_signup_clas">Class</string>
+    <string name="frag_signup_address">Address</string>
+    <string name="register_button">REGISTER</string>
+    <string name="quiz_list_helper">TO</string>
+    <string name="search_button">Search</string>
+    <string name="frag_ongoing_helper">No quizes here yet.</string>
+    <string name="activity_start_test_button">START TEST</string>
+</resources>

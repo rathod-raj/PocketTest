@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020. Made by Vivek Surya and Raj Rathod. All Rights Reserved.
+  ~ Last Modified 15/11/20 12:39 PM
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activites.StartTest">
+    <androidx.appcompat.widget.Toolbar
+    android:id="@+id/tbstarttest"
+    app:title="START TEST"
+    app:titleTextColor="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    />
+    <TextView
+        android:id="@+id/start_test_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginVertical="10dp"
+        android:textColor="@android:color/black"
+        android:text="Quiz Name"  />
+    <TextView
+        android:id="@+id/start_test_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginVertical="10dp"
+        android:textColor="@android:color/black"  />
+    <TextView
+        android:id="@+id/start_total_marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginVertical="10dp"
+        android:textColor="@android:color/black"
+         />
+    <Button
+        android:id="@+id/start_test_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:textSize="22sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginVertical="10dp"
+        android:textColor="@android:color/black"
+        android:text="@string/activity_start_test_button" />
+</LinearLayout>
